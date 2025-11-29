@@ -3,9 +3,13 @@
     "author": "David Yu",
     "license": "LGPL-3",
     "version": "18.0.1.1",
+    "depends": [
+        "mail"
+    ],
     "data": [
         "security/ir.model.access.csv",
         "views/patient_views.xml",
+        "views/patient_readonly_views.xml",
         "views/menu.xml",
     ]
 }
