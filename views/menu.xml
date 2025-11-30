@@ -18,4 +18,9 @@
               parent="menu_frontdesk"
               action="action_hospital_readonly_patient"
     />
+    <menuitem id="menu_appointment"
+              name="Appointments"
+              parent="menu_frontdesk"
+              action="action_hospital_appointment"
+    />
 </odoo>
