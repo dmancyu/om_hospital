@@ -2,6 +2,7 @@
 <odoo>
     <menuitem id="menu_hospital_root"
               name="HMS"
+              web_icon="om_hospital,static/description/icon.png"
               sequence="35"
     />
     <menuitem id="menu_frontdesk"
@@ -23,4 +24,16 @@
               parent="menu_frontdesk"
               action="action_hospital_appointment"
     />
+
+    <menuitem id="menu_configuration"
+              name="Configuration"
+              parent="menu_hospital_root"
+              sequence="100"
+    />
+    <menuitem id="menu_patient_tag"
+              name="Patient Tags"
+              parent="menu_configuration"
+              action="action_patient_tag"
+    />
+
 </odoo>
